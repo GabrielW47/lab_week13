@@ -1,4 +1,4 @@
-let clone = 0
+let clone = 0                                //made this so that DELETE function will run = to the amont copyed without this DELETE function only DELETEs one at a time
 function cOne(){
     let div = document.createElement('div'); //makes the div
     div.id = 'copyed';                       //makes the div id
@@ -16,8 +16,8 @@ function cTwo(){
 
 function DELETE(){
     while (clone !== 0){
-        var element = document.getElementById("copyed");
-        element.parentNode.removeChild(element); 
+        var element = document.getElementById("copyed");   // finds the divs
+        element.parentNode.removeChild(element);           // deletes the div
         clone = clone - 1
     }
 }
