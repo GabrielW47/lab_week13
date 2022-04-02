@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(173, 249, 249);
+}
+h1, h2{
+    color: #000;
+}
+div, p{
+    background-color: #000;
+    color: rgb(173, 249, 249);;
+}
